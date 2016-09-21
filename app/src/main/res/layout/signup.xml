@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical" >
+
+    <EditText
+        android:id="@+id/editTextUserName"
+        style="@style/signupEtUN"
+        >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        style="@style/signupEtPwd" />
+
+    <EditText
+        android:id="@+id/editTextConfirmPassword"
+        style="@style/signupEtConfPwd"/>
+
+    <Button
+        android:id="@+id/buttonCreateAccount"
+        style="@style/signupBtn" />
+
+</LinearLayout>
